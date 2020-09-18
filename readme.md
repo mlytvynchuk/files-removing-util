@@ -1,6 +1,6 @@
 # RemovingFilesUtil
 
-### The util that helps to delete useless .bak files from a given directory.
+### The util that helps to delete useless files from a given directory.
 
 ## How to use?
 
