@@ -1,6 +1,4 @@
 import os
-from os import listdir, walk
-from queue import Queue
 
 
 class RemovingFilesUtil:
@@ -28,7 +26,7 @@ class RemovingFilesUtil:
 
     def execute(self):
         """ Removes .bak files and empty folders if is_delete_empty_folders is true. """
-        for (dirpath, _, file_names) in walk(self.dir_path, topdown=False):
+        for (dirpath, _, file_names) in os.walk(self.dir_path, topdown=False):
             for f_name in file_names:
                 if str.endswith(f_name, "." + self.file_extention):
                     # Removing a file from the directory.
