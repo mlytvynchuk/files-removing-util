@@ -1,4 +1,4 @@
-# BakFileDeleteUtil
+# RemovingFilesUtil
 
 ### The util that helps to delete useless .bak files from a given directory.
 

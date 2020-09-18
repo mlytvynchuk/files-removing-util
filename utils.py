@@ -3,7 +3,7 @@ from os import listdir, walk
 from queue import Queue
 
 
-class RemovingBakFilesUtil:
+class RemovingFilesUtil:
     """
         Util that removes useless files from the given folder.
     """
